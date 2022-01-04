@@ -13,12 +13,12 @@
 # 6 - 1 = 5
 
 print("User Input:\n")
-a=str(input(" "))
-c=str(input(" ")) #введення знаку арифметичної операції
-b=str(input(" "))
-d=a+c+b
-p=eval(d)
+a = str(input(" "))
+c = str(input(" ")) #введення знаку арифметичної операції
+b = str(input(" "))
+d = a + c + b
+p = eval(d)
 
-with open("result.txt", "a") as fi:
-    fi.write(f"{a} {c} {b} = {p} ")
+with open("result.txt", "a") as fo:
+    fo.write(f"{a} {c} {b} = {p} ")
 
