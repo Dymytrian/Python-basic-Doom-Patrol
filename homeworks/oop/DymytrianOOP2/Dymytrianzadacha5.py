@@ -39,9 +39,9 @@ guitar.printing ()
 class Calc:
     @staticmethod
     def add_nums(param1, param2, param3):
-        return print (param1 + param2 + param3)
+        return (param1 + param2 + param3)
 c1 = Calc
-c1.add_nums(10, 20, 30)
+print (c1.add_nums (10, 20, 30))
 
 
 #6
